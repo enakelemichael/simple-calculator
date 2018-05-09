@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #444;
+    font-family: sans-serif;
+    padding: 10rem;
+  }
+  
+  .calculator {
+    background-color: white;
+    width: 20rem;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+
+  }
+  .controls {
+    padding: 1.5rem;
+  }
+  
+  button, input[type="text"] {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  label {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    color: black;
+  }
+  input[type="text"] {
+    border-style: solid;
+    border-bottom: 2px solid black;
+    margin-bottom: 1rem;
+    text-align: right;
+    font-size: 200%;
+  }
+
+
